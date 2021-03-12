@@ -1,0 +1,16 @@
+{
+  "name": "assemblyscript-demo",
+  "version": "1.0.0",
+  "description": "Assemblyscript Demo",
+  "main": "dist/index.html",
+  "scripts": {
+    "compile": "asc src/fib.ts -o dist/fib.wasm",
+    "compile_optimize": "asc src/fib.ts -o dist/fibOptimize.wasm --optimize"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "assemblyscript": "^0.3.0"
+  }
+}
